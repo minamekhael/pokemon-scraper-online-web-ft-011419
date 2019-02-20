@@ -1,1 +1,5 @@
-CREATE TABLE IF NOT EXISTS pokemon(id INTEGER PRIMARY KEY, name TEXT, type TEXT);
+CREATE TABLE pokemon (
+  id integer primary key autoincrement,
+  name text,
+  type text
+);
